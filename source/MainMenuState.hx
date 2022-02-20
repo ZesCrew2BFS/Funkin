@@ -46,6 +46,7 @@ class MainMenuState extends MusicBeatState
 
 		if (!FlxG.sound.music.playing)
 		{
+			FlxG.sound.playMusic(Paths.music('snf-sega'));
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 		}
 
